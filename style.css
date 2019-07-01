@@ -1,0 +1,187 @@
+/* Style this Document Here */
+@import url('https://fonts.googleapis.com/css?family=Nunito|Quicksand');
+
+
+
+
+/* Body */
+
+html {
+    scroll-behavior: smooth;
+  }
+
+
+/* Navbar */
+
+nav.navbar{
+    margin-top:10px;
+}
+
+nav .navbar-item {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+}
+
+nav .navbar-item:hover {
+    color:#00D1B2;
+}
+
+nav a.button.button.is-primary{
+    background: #11A49B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #11A49B, #00D1B2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #09fad2, #00D1B2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+border:0px;
+transition: all 0.2s ease-in-out;
+}
+
+nav a.button.button.is-primary:hover{
+    box-shadow: 1px 1px #00D1B2, 2px 2px #0b8ef8, 3px 3px #00bda4;
+transform: translateX(-3px);
+}
+
+
+.navbar-burger.burger{
+    margin-right:0px;
+    
+}
+
+
+
+/* Column */
+
+div.column{
+    margin-bottom: 100px;
+}
+
+div.column{
+    text-align:center;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    font-size:27px;
+}
+
+div #myskills{
+    margin-bottom:50px;
+}
+
+/* Headings h2 */
+
+div.container h2 {
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 30px ;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color:#00D1B2;
+}
+
+/* Message */
+
+div.column button.button.is-primary.is-medium{
+    background: #11A49B;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(45deg, #11A49B, #00D1B2);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(45deg, #09fad2, #00D1B2);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+border:0px;
+
+transition: all 0.2s ease-in-out;
+
+}
+
+div.column button.button.is-primary.is-medium:hover {
+    box-shadow: 1px 1px #00D1B2, 2px 2px #0b8ef8, 3px 3px #00bda4;
+transform: translateX(-3px);
+}
+
+/* Typewriter */
+
+.typewriter{
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid #00D1B2; /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 100% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: #00D1B2; }
+  }
+
+
+  /* Card Buttons Pricing */
+
+  div.card button.button.is-danger{
+    color: #ffffff;
+    background-color: #FF3C38;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height:32px;
+    font-size:18px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  div.card button.button.is-danger:hover{
+    transform: scale(1.1);
+  }
+
+  div.card button.button.is-success{
+    color: #ffffff;
+    background-color: #00E676;
+    border-radius: 4px;
+    padding: 0 15px;
+    cursor: pointer;
+    height:32px;
+    font-size:18px;
+    transition: all 0.2s ease-in-out;
+  }
+
+  div.card button.button.is-success:hover{
+    transform: scale(1.1);
+  }
+
+  /* Footer */
+
+  footer.footer{
+      background-color:black;
+      text-align:center;
+  }
+
+  footer.footer h2{
+      color:#ffffff;
+      font-family:'Quicksand', sans-serif;
+      font-weight:bold;
+      font-size:21px;
+  }
+
+  footer.footer h2 a:hover{
+    color:#00D1B2;
+  }
+
+  /* Section */
+
+  div.section.is-fullhieght{
+      padding-top:20px;
+  }
